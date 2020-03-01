@@ -8,9 +8,18 @@ function renderItem(doc) {
     name.textContent = doc.data().name;
     
     //Color Span Element
-    if (doc.data().type = 'r') {
-        console.log(doc.data().type);
+    if (doc.data().type == 'r') {
         name.style.color = 'blue';
+    };
+
+    if (doc.data().type == 't') {
+        console.log(doc.data().type);
+        name.style.color = 'red';
+    };
+
+    if (doc.data().type == 'c') {
+        console.log(doc.data().type);
+        name.style.color = 'green';
     };
 
     //Add Span Element to List Element, Add List Element to ItemList Div
