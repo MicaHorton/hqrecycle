@@ -8,21 +8,49 @@
 
 }
 
+#map {
+    width: 1200px;
+}
+
+#red {
+    color: rgb(207, 92, 78);
+}
+
+#green {
+    color: rgb(75, 158, 101);
+}
+#blue {
+    color: rgb(87, 140, 238);
+}
+
+
 /* Styling Item Page*/
-.pageContent {
-    margin: 20px;
+.pageContent1 {
+    margin: 40px;
+    padding-left:325px;
 
 }
+.pageContent2 {
+    margin: 10px;
+    padding-left:225px;
+}
+
+
 #food-list {
     margin-left: 50px;
     font-size: 20px;
 }
 
+<<<<<<< HEAD
 /* Styling About Page */
 
 #natureImage {
     width: 1280px;
 
+=======
+#key {
+    font-size: 25px;
+>>>>>>> 937b6734132018ffa1eee850a4a7a45f17c730db
 }
 
 /*
