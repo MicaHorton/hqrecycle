@@ -9,8 +9,6 @@
 }
 
 
-
-
 /* Styling Item Page*/
 .pageContent {
     margin: 20px;
@@ -21,6 +19,12 @@
     font-size: 20px;
 }
 
+/* Styling About Page */
+
+#natureImage {
+    width: 1500px;
+
+}
 
 /*
 
