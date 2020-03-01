@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/> 
+
+</head>
+
+<body>
+    
+    <!--Food List-->
+    <h1>Food List</h1>
+    <div id="food-list">
+
+    </div>
+
+    <!--Firebase Setup Code-->
+    <!--Firebase SDK-->
+    <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-firestore.js"></script>
+
+    <script>
+      //Web App Configuration 
+      var firebaseConfig = {
+        apiKey: "AIzaSyCu0iQqxPgh5Yqfe0I2Evk6TGYbux-TZns",
+        authDomain: "hqrecycling-f9853.firebaseapp.com",
+        databaseURL: "https://hqrecycling-f9853.firebaseio.com",
+        projectId: "hqrecycling-f9853",
+        storageBucket: "hqrecycling-f9853.appspot.com",
+        messagingSenderId: "319591889427",
+        appId: "1:319591889427:web:df4a0854ebd530abb2dde6",
+        measurementId: "G-T5V40SKJJ0"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+
+      const db = firebase.firestore();
+    </script>
+
+    <!--Custom JavaScript-->
+    <script src="food.js"></script>
+
+
+</body>

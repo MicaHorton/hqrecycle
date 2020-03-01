@@ -1,0 +1,13 @@
+* {
+    margin: 3px;
+    padding: 3px;
+}
+
+body {
+    font-family: Arial;
+}
+
+li {
+    font-size: 20px;
+    margin-left: 20px;
+}
