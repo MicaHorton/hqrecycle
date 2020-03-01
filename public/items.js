@@ -12,7 +12,7 @@ function renderItem(doc) {
         name.style.color = 'blue';
     };
 
-    if (doc.data().type == 't') {
+    if (doc.data().type == 'l') {
         console.log(doc.data().type);
         name.style.color = 'red';
     };
@@ -51,7 +51,7 @@ function renderItem(doc) {
 }
 
 // Get Item Data
-db.collection('items').get().then(snapshot => {
+db.collection('items').orderBy('name').get().then(snapshot => {
     snapshot.docs.forEach(doc => {
         renderItem(doc);
     });
