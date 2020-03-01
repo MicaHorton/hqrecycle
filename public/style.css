@@ -8,16 +8,43 @@
 
 }
 
+#map {
+    width: 1200px;
+}
+
+#red {
+    color: rgb(207, 92, 78);
+}
+
+#green {
+    color: rgb(75, 158, 101);
+}
+#blue {
+    color: rgb(87, 140, 238);
+}
+
+slkadk
+
 /* Styling Item Page*/
-.pageContent {
-    margin: 20px;
+.pageContent1 {
+    margin: 40px;
+    padding-left:325px;
 
 }
+.pageContent2 {
+    margin: 10px;
+    padding-left:225px;
+}
+
+
 #food-list {
     margin-left: 50px;
     font-size: 20px;
 }
 
+#key {
+    font-size: 25px;
+}
 
 /*
 
