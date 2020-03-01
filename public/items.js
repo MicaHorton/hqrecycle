@@ -27,27 +27,7 @@ function renderItem(doc) {
     li.appendChild(name);
     itemList.appendChild(li);
 
-
-
-   // if databas
-
-    /*
-    let li = document.createElement('li');
-    let name = document.createElement('span');
-    let type = document.createElement('span');
-   
-
-    li.setAttribute('data-id', doc.id);
-    name.textContent = doc.data().name;
-    type.textContent = doc.data().type;
-   
-
-    li.appendChild(name);
-    li.appendChild(type);
-
-
-    itemList.appendChild(li); */
-
+    
 }
 
 // Get Item Data

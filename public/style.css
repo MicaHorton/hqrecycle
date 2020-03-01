@@ -8,8 +8,39 @@
 
 }
 
+
+/* Styling Item Page*/
+.pageContent {
+    margin: 40px;
+    padding-left:20px;
+    font-size: 20px;
+}
+
+#food-list {
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+/* Styling About Page */
+
+#natureImage {
+    width: 1280px;
+
+}
+
+
+/* Styling Map Page */
+
+#key {
+    font-size: 25px;
+    margin: 40px;
+    padding-left:325px;
+}
+
 #map {
-    width: 1200px;
+    width: 1500px;
+    margin: 10px;
+    padding-left:225px;
 }
 
 #red {
@@ -24,65 +55,3 @@
 }
 
 
-/* Styling Item Page*/
-.pageContent1 {
-    margin: 40px;
-    padding-left:325px;
-
-}
-.pageContent2 {
-    margin: 10px;
-    padding-left:225px;
-}
-
-
-#food-list {
-    margin-left: 50px;
-    font-size: 20px;
-}
-
-<<<<<<< HEAD
-/* Styling About Page */
-
-#natureImage {
-    width: 1280px;
-
-=======
-#key {
-    font-size: 25px;
->>>>>>> 937b6734132018ffa1eee850a4a7a45f17c730db
-}
-
-/*
-
-.nav-item {
-    text-align: center;
-}
-
-
-.logo-image{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-top: -6px;
-}
-*/
-
-/*
-a:active {
-    color: red;
-}
-
-
-
-* {
-    margin: 3px;
-    padding: 3px;
-}
-
-
-li {
-    font-size: 20px;
-    margin-left: 20px;
-}*/
