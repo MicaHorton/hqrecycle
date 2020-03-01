@@ -1,13 +1,27 @@
+
+.pageContent {
+    margin: 20px;
+
+}
+#food-list {
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+/*
+a:active {
+    color: red;
+}
+
+
+
 * {
     margin: 3px;
     padding: 3px;
 }
 
-body {
-    font-family: Arial;
-}
 
 li {
     font-size: 20px;
     margin-left: 20px;
-}
+}*/
